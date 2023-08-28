@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Facturacion.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="mb-4">Lista de Clientes</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create"><i class="bi bi-plus"></i> Crear Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@item.IdCliente"><i class="bi bi-pencil"></i> Editar</a> |
+                    <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.IdCliente"><i class="bi bi-info-circle"></i> Detalles</a> |
+                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.IdCliente"><i class="bi bi-trash"></i> Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
