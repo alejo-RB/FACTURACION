@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DESARROLLO\\Asp Net\\Facturacion\\Facturacion\\Facturacion.csproj": {}
+    "C:\\DESARROLLO\\Asp Net\\FACTURACION\\Facturacion\\Facturacion.csproj": {}
   },
   "projects": {
-    "C:\\DESARROLLO\\Asp Net\\Facturacion\\Facturacion\\Facturacion.csproj": {
+    "C:\\DESARROLLO\\Asp Net\\FACTURACION\\Facturacion\\Facturacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DESARROLLO\\Asp Net\\Facturacion\\Facturacion\\Facturacion.csproj",
+        "projectUniqueName": "C:\\DESARROLLO\\Asp Net\\FACTURACION\\Facturacion\\Facturacion.csproj",
         "projectName": "Facturacion",
-        "projectPath": "C:\\DESARROLLO\\Asp Net\\Facturacion\\Facturacion\\Facturacion.csproj",
+        "projectPath": "C:\\DESARROLLO\\Asp Net\\FACTURACION\\Facturacion\\Facturacion.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\DESARROLLO\\Asp Net\\Facturacion\\Facturacion\\obj\\",
+        "outputPath": "C:\\DESARROLLO\\Asp Net\\FACTURACION\\Facturacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

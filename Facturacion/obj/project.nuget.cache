@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/DsFxn1oHrgRfqW0K8yTSwbIhOUfiBQgsWLrUc0QIB1yUYKFA1+fYAyL5e7fx5uVgm6Qq7xNu9rEATUtRwMqOw==",
+  "dgSpecHash": "zoKRJPb0qBbJsJZe2cZ2wA8oe9c7ReKfzWWmNQMdSJb9yDxjY5YHlEwSCLeMeisOv7nmsWALVrjM48GAcYhQ6w==",
   "success": true,
-  "projectFilePath": "C:\\DESARROLLO\\Asp Net\\Facturacion\\Facturacion\\Facturacion.csproj",
+  "projectFilePath": "C:\\DESARROLLO\\Asp Net\\FACTURACION\\Facturacion\\Facturacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
